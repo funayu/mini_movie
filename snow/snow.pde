@@ -1,6 +1,8 @@
 import java.util.Arrays;
 
+// キャンバスのサイズ縦
 int w = 400;
+// キャンバスのサイズ横
 int h = 265;
 int n = 5;
 ArrayList<ArrayList<Float>> snows = new ArrayList<ArrayList<Float>>();
@@ -10,6 +12,7 @@ PImage img;
 boolean doDraw = true;
 
 void setup(){
+  // キャンバスのサイズを指定、変数指定できないので直書き
   //size(w,h);
   size(400,265);
   img = loadImage("castle.png");
@@ -40,11 +43,11 @@ void draw(){
 
   drawIntegrate();
   int index = int(random(w/4));
-  
+
   if(doDraw){
   integrations[index] = integrations[index] + 1;
   }
-  
+
   doDraw = !doDraw;
 }
 

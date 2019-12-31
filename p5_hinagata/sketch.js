@@ -1,0 +1,7 @@
+function setuo() {
+
+}
+
+function draw() {
+
+}

@@ -6,7 +6,7 @@
     {
       "label": "Run",
       "type": "process",
-      "command": "C:\\processing-3.5.3\\processing-java.exe",
+      "command": "processing-java",
       "args": [
         "--force",
         "--sketch=${fileDirname}",
